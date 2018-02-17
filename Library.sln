@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{BD3E608F-AA98-4517-9A14-BE1510A807BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryMVC", "LibraryMVC\LibraryMVC.csproj", "{BD04C4AD-A1C7-4E98-80AB-C2B83B6949C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryData", "LibraryData\LibraryData.csproj", "{4B497840-DE9D-4C07-9D1F-1F77AEB8CA57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD3E608F-AA98-4517-9A14-BE1510A807BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3E608F-AA98-4517-9A14-BE1510A807BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3E608F-AA98-4517-9A14-BE1510A807BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3E608F-AA98-4517-9A14-BE1510A807BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD04C4AD-A1C7-4E98-80AB-C2B83B6949C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD04C4AD-A1C7-4E98-80AB-C2B83B6949C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD04C4AD-A1C7-4E98-80AB-C2B83B6949C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD04C4AD-A1C7-4E98-80AB-C2B83B6949C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B497840-DE9D-4C07-9D1F-1F77AEB8CA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B497840-DE9D-4C07-9D1F-1F77AEB8CA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B497840-DE9D-4C07-9D1F-1F77AEB8CA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B497840-DE9D-4C07-9D1F-1F77AEB8CA57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D29D966-8FFB-44BB-86E2-DC224C326988}
+	EndGlobalSection
+EndGlobal
