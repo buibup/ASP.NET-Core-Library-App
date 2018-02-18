@@ -12,9 +12,10 @@ using System;
 namespace LibraryData.Migrations
 {
     [DbContext(typeof(LibraryContext))]
-    partial class LibraryContextModelSnapshot : ModelSnapshot
+    [Migration("20180218050847_Modify table Patron to Patrons")]
+    partial class ModifytablePatrontoPatrons
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -196,7 +197,7 @@ namespace LibraryData.Migrations
 
                     b.Property<int?>("LibraryCardId");
 
-                    b.Property<string>("TelephoneNumber");
+                    b.Property<string>("TelephonNumber");
 
                     b.HasKey("Id");
 
